@@ -1,0 +1,51 @@
+@import url("../bootstrap-icons-1.8.1/bootstrap-icons.css");
+
+:root{
+    --blue:#02427D;
+    --gray:#5A5A5A;
+}
+
+.myh1{
+    color:var(--blue);
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.tpmg{
+    margin-top: 50px;
+}
+
+.mypd{
+    padding: 9rem;
+}
+
+.pushdown{
+    margin-top: 9rem;
+}
+
+
+.mytxt{
+    color:var(--gray);
+    font-size: 1.2rem;
+}
+
+.ftPad{
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+}
+
+.ftH{
+    min-height: 400px;
+}
+
+
+.myH{
+    min-height: 500px;
+}
+.bgImg{
+    background-image: url("../img/saver.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
