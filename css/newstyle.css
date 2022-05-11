@@ -18,12 +18,23 @@ button:focus{
 }
 
 
+/* MEDIA QUERY SECTION */
 
-@media (min-width: 350px){
+
+@media only screen and (min-width: 368px) {
+   
+     .mImg{
+      width: 30% !important;
+      align-items: center ;  
+    }
+  }
+
+@media (min-width: 350px){    
     .smImg[width]{
         width:100px;
     }
 }
+
 
 .p-100{
     padding:100px 0;
